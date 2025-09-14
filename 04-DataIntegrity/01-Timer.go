@@ -22,7 +22,7 @@ func updateTime() {
 	TimeElement.totalChanges++
 }
 
-func main() {
+func timer() {
 	var wg sync.WaitGroup
 
 	TimeElement.totalChanges = 0
